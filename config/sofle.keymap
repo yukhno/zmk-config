@@ -96,11 +96,11 @@
 // |     | UNDO| CUT | COPY| PSTE|     |                 |     |     |     |     |     |     |
 // |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |
             bindings = <
-&trans &trans     &trans    &trans     &trans      &trans                              &kp PG_UP &kp HOME  &kp UP   &kp END   &kp DEL  &trans
-&trans &trans     &trans    &trans     &trans      &trans                              &kp PG_DN &kp LEFT  &kp DOWN &kp RIGHT &kp BSPC &trans
-&trans &kp LGUI   &kp LALT  &kp LCTRL  &kp LSHFT   &trans                              &trans    &trans    &trans   &trans    &trans   &trans
-&trans &kp K_UNDO &kp K_CUT &kp K_COPY &kp K_PASTE &trans     &trans   &trans          &trans    &trans    &trans   &trans    &trans   &trans
-                  &trans    &trans     &trans      &trans     &trans   &trans          &trans    &trans    &trans   &trans
+&trans &trans     &trans    &trans     &trans      &trans                              &trans    &trans    &trans    &trans    &trans   &trans
+&trans &trans     &trans    &trans     &trans      &trans                              &kp HOME  &kp PG_DN &kp PG_UP &kp END   &trans   &trans
+&trans &kp LGUI   &kp LALT  &kp LCTRL  &kp LSHFT   &trans                              &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT &none    &none
+&trans &kp K_UNDO &kp K_CUT &kp K_COPY &kp K_PASTE &trans     &trans   &trans          &trans    &trans    &trans    &trans    &trans   &trans
+                  &trans    &trans     &trans      &trans     &trans   &trans          &trans    &trans    &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
