@@ -98,7 +98,7 @@
             bindings = <
 &trans &trans     &trans    &trans     &trans      &trans                              &trans    &trans    &trans    &trans    &trans   &trans
 &trans &trans     &trans    &trans     &trans      &trans                              &kp HOME  &kp PG_DN &kp PG_UP &kp END   &trans   &trans
-&trans &kp LGUI   &kp LALT  &kp LCTRL  &kp LSHFT   &trans                              &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT &none    &none
+&trans &kp LGUI   &kp LALT  &kp LCTRL  &kp LSHFT   &trans                              &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT &none    &trans
 &trans &kp K_UNDO &kp K_CUT &kp K_COPY &kp K_PASTE &trans     &trans   &trans          &trans    &trans    &trans    &trans    &trans   &trans
                   &trans    &trans     &trans      &trans     &trans   &trans          &trans    &trans    &trans    &trans
             >;
